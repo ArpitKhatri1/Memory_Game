@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+
+.box {
+  @apply w-52 h-60 justify-center items-center flex border-2 border-blue-400 shadow-black cursor-pointer;
+}
+
+.cover {
+  @apply w-52 h-60 bg-red-300 hover:scale-[105%] transition duration-200 opacity-[1];
+}
+
+.hide {
+  @apply hidden;
+}
+.invi {
+  @apply invisible;
+}
+
+@tailwind utilities;
+
+.pizza {
+  background-image: url("../public/pizza.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hotdog {
+  background-image: url("../public/hotdog.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fries {
+  background-image: url("../public/fries.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icecream {
+  background-image: url("../public/icecream.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.initialcover {
+  background-image: url("../public/cardcover2.jpg");
+
+  background-size: cover;
+}
